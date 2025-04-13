@@ -107,3 +107,96 @@ button{
     display: none;
     color: rgb(208, 15, 15);
 }
+
+@media screen and (max-width: 500px){
+    .card{
+        max-width: 300px;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    
+    .search{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .search input{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 5px -1px;
+        height: 40px;
+        border-radius: 30px;
+        flex: 1;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+
+    ::placeholder{
+        color: #615f5f;
+        font-size: 15px;
+    }
+    
+    button{
+        padding: 10px;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .search button img{
+        width: 15px;
+    }
+    
+    .weather-icon{
+        width: 100px;
+        margin-top: 5px;
+    }
+    
+    .weather h1{
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    .weather h2{
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    
+    .details{
+        padding: 30px 0px 10px 0px;
+        margin-top: 25px;
+        justify-content: space-around;
+    }
+    
+    .col img{
+        width: 25px;
+        margin-right: 10px;
+    }
+    
+    .humidity, .wind{
+        font-size: 13px;
+        margin-top: -3px;
+    }
+
+    .hum , .win{
+        font-size: 12px;
+    }
+    
+    .weather{
+        display: none;
+    }
+    
+    .error{
+        text-align: left;
+        margin-left: -15px;
+        font-size: 14px;
+        margin-top: 15px;
+        display: none;
+        color: rgb(208, 15, 15);
+    }
+    
+}
