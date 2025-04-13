@@ -17,6 +17,13 @@ ClimaCast is a simple and responsive weather application that allows users to ch
 - Fetch API for API calls
 - Responsive design with CSS media queries
 
+  ## 🌐 Deployed Link
+
+Check out the live application here:  
+🔗 [ClimaCast Live](https://climacast1.netlify.app)
+
+
+
 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/0b842509-a82b-4e28-8f1d-547efb95c3fd)
 ![image](https://github.com/user-attachments/assets/63bab346-fda2-4ffb-bb7b-9267e5d3ad19)
